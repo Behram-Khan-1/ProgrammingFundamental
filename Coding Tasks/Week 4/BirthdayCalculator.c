@@ -18,10 +18,12 @@ int main() {
     if (currentMonth <= 1 && currentMonth >= 12) {
         printf("Invalid month! Please enter a number between 1 and 12.\n");
         return 1; // Exit the program if input is invalid
+        //We havent studied return yet so dont think over this alot...
     }
     if (currentDay <= 1 && currentDay >= 31) {
         printf("Invalid day! Please enter a number between 1 and 31.\n");
         return 1; // Exit the program if input is invalid
+        //We havent studied return yet so dont think over this alot...
     }
 
     // Get birth date from user
@@ -33,10 +35,12 @@ int main() {
     if (currentDay < 1 || currentDay > 31) {
         printf("Invalid day! Please enter a number between 1 and 31.\n");
         return 1; // Exit the program if input is invalid
+        //We havent studied return yet so dont think over this alot...
     }
     if (birthDay < 1 || birthDay > 31) {
         printf("Invalid birth day! Please enter a number between 1 and 31.\n");
         return 1; // Exit the program if input is invalid
+        //We havent studied return yet so dont think over this alot...
     }
 
     int daysRemaining = 0;
